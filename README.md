@@ -31,6 +31,7 @@ Verified machine learning implementations completed on [TensorTonic](https://www
 | Implement Causal Masking for Attention | Create a causal attention mask that blocks each token from attending to future positions in a sequence. | https://www.tensortonic.com/problems/causal-masking |
 | Advantage Computation | Compute reinforcement-learning advantages by subtracting value estimates from observed returns at each timestep. | https://www.tensortonic.com/problems/compute-advantage |
 | Compute Covariance Matrix | Compute a sample covariance matrix from centered observations, preserving feature-to-feature relationships. | https://www.tensortonic.com/problems/covariance-matrix |
+| Diagonal Gaussian KL Divergence | Compute the closed-form KL divergence between two diagonal Gaussians given means and log variances, as used in the DDPM bound. | https://www.tensortonic.com/problems/diffusion-l01-diagonal-gaussian-kl |
 | Reparameterized Gaussian Sample | Draw Gaussian samples with the reparameterization trick, writing each sample as a deterministic function of noise. | https://www.tensortonic.com/problems/diffusion-l01-reparameterized-gaussian-sample |
 | Implement Dropout (Training Mode) | Implement training-mode dropout in NumPy with random masking and inverted scaling of retained activations. | https://www.tensortonic.com/problems/dropout-training |
 | Edit Distance | Compute Levenshtein edit distance between two strings using dynamic programming over insertions, deletions, and substitutions. | https://www.tensortonic.com/problems/edit-distance |
