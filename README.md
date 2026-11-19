@@ -49,6 +49,7 @@ Verified machine learning implementations completed on [TensorTonic](https://www
 | Classifier-Free Guidance | Combine conditional and unconditional diffusion predictions with classifier-free guidance and optional std rescaling. | https://www.tensortonic.com/problems/diffusion-l05-classifier-free-guidance |
 | DDIM Step | Implement one DDIM update with eta-controlled stochasticity, optional clipping of the predicted clean sample, and step skipping. | https://www.tensortonic.com/problems/diffusion-l05-ddim-step |
 | DDPM Ancestral Step | Implement one DDPM reverse step that turns predicted noise into the posterior mean and adds scaled fresh noise. | https://www.tensortonic.com/problems/diffusion-l05-ddpm-ancestral-step |
+| Karras Euler Sampler | Build the Karras et al. noise schedule and run Euler or Heun sampling of the probability flow ODE with an exact denoiser. | https://www.tensortonic.com/problems/diffusion-l05-karras-euler-sampler |
 | Implement Dropout (Training Mode) | Implement training-mode dropout in NumPy with random masking and inverted scaling of retained activations. | https://www.tensortonic.com/problems/dropout-training |
 | Edit Distance | Compute Levenshtein edit distance between two strings using dynamic programming over insertions, deletions, and substitutions. | https://www.tensortonic.com/problems/edit-distance |
 | Implement Euclidean Distance | Compute Euclidean distance between equal-length NumPy vectors as the square root of summed squared differences. | https://www.tensortonic.com/problems/euclidean-distance |
